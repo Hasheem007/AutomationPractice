@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="21.192228">
+<testcase classname="Automation Practice End to End Test automation scenario" name="Verify user validate the automation practice home page" time="16.087538">
+<system-out><![CDATA[Given User hit the Automation practice website..............................passed
+Then User verifes the site logo.............................................passed
+And User verifies the page title............................................passed
+Then User click on Signin Button in Header..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Practice End to End Test automation scenario" name="Verify user login the application with valid credentials" time="0.831702">
+<failure message="cucumber.runtime.CucumberException: Arity mismatch: Step Definition 'com.cucumber.stepdefinition.LoginPage.user_enter_the_password_in_the_login_page(int,String) in file:/C:/Users/Sakthi/eclipse-workspace/CucmberProject/target/test-classes/' with pattern [^User enter the password '(.*)' in the login page$] is declared with 2 parameters. However, the gherkin step has 1 arguments [123456789]. &#10;Step: And User enter the password '123456789' in the login page&#13;&#10;&#9;at cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:102)&#13;&#10;&#9;at cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:60)&#13;&#10;&#9;at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)&#13;&#10;&#9;at cucumber.runtime.Runtime.runStep(Runtime.java:300)&#13;&#10;&#9;at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)&#13;&#10;&#9;at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)&#13;&#10;&#9;at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)&#13;&#10;&#9;at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)&#13;&#10;&#9;at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#13;&#10;&#9;at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;&#10;&#9;at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#13;&#10;&#9;at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)&#13;&#10;&#9;at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;&#10;&#9;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;&#10;&#9;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;&#10;&#9;at cucumber.api.junit.Cucumber.run(Cucumber.java:100)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)&#13;&#10;"><![CDATA[When User enter the email id 'venkat@gmail.com' in the login page...........passed
+And User enter the password '123456789' in the login page...................failed
+And User click on Login Button in the Login Page............................skipped
+Then User verifies the Username 'mohan vasu' present in the header..........skipped
+
+StackTrace:
+cucumber.runtime.CucumberException: Arity mismatch: Step Definition 'com.cucumber.stepdefinition.LoginPage.user_enter_the_password_in_the_login_page(int,String) in file:/C:/Users/Sakthi/eclipse-workspace/CucmberProject/target/test-classes/' with pattern [^User enter the password '(.*)' in the login page$] is declared with 2 parameters. However, the gherkin step has 1 arguments [123456789]. 
+Step: And User enter the password '123456789' in the login page
+	at cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:102)
+	at cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:60)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+]]></failure>
+</testcase>
+<testcase classname="Automation Practice End to End Test automation scenario" name="Verify user search the product in the product page" time="4.272988">
+<system-out><![CDATA[When User enters the product type in search field...........................passed
+And User click on search button.............................................passed
+Then User verifies the product type is displayed in result section..........passed
+]]></system-out>
+</testcase>
+</testsuite>
